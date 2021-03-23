@@ -4,8 +4,6 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { OffersPageRoutingModule } from './offers-routing.module';
-
 import { OffersPage } from './offers.page';
 
 @NgModule({
@@ -13,7 +11,6 @@ import { OffersPage } from './offers.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    OffersPageRoutingModule
   ],
   declarations: [OffersPage]
 })
